@@ -68,8 +68,9 @@ const Signup = ({ onClose, onShowVerify, onShowLogin, onFinish }) => {
       } catch (err) {
         if (err.response && err.response.data && err.response.data.message) {
           toast.error(err.response.data.message);
+          console.log(err.response.data.message)
         } else {
-          toast.error("Signup failed. Please try again later.");
+          // toast.error("Signup failed. Please try again later.");
         }
       }
     } else {
