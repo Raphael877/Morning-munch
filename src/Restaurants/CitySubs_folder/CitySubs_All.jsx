@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import WebApp_image from '../../assets/WebApp_image.png'
+import tea from '../../assets/IMG-20251001-WA0017.jpg'
+import hot from '../../assets/IMG-20251001-WA0018.jpg'
 import { useNavigate } from 'react-router-dom';
 
 
@@ -18,17 +20,17 @@ const CitySubs_All = () => {
       price: '8,000.00'
     },
     {
-      id: 1,
-      img: WebApp_image,
-      name: 'Jollof Indomie, and Egg with Beef',
-      desc: 'Spicy jollof noodles served with a perfectly cooked egg and tender, seasoned beef a quick, tasty and satisfying meal.',
-      price: '8,000.00'
+      id: 2,
+      img: tea,
+      name: 'Tea, Bread and Egg',
+      desc: 'Well garnished bread with egg bringing a quick, tasty sensation.',
+      price: '3,000.00'
     },
     {
-      id: 1,
-      img: WebApp_image,
-      name: 'Jollof Indomie, and Egg with Beef',
-      desc: 'Spicy jollof noodles served with a perfectly cooked egg and tender, seasoned beef a quick, tasty and satisfying meal.',
+      id: 3,
+      img: hot,
+      name: 'Hot dog mix',
+      desc: 'Hot dog, Toasted bread, beans, all in one, bringing satisfaction to you.',
       price: '8,000.00'
     },
     {

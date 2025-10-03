@@ -58,7 +58,7 @@ const Lbc_drinks = () => {
         <Food_wrapper>
             <Left>
               {Array.map((item) => (
-                <div className='food_info'>
+                <div className='food_info' >
                     <div className='food_info_wrapper'>
                         <img src={item.img} />
                         <div className='info'>
