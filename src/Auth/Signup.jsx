@@ -70,7 +70,7 @@ const Signup = ({ onClose, onShowVerify, onShowLogin, onFinish }) => {
           toast.error(err.response.data.message);
           console.log(err.response.data.message)
         } else {
-          // toast.error("Signup failed. Please try again later.");
+          toast.error("Signup failed. Please try again later.");
         }
       }
     } else {
